@@ -1,0 +1,19 @@
+.container-fluid {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: calc(5% + 4vw);
+    padding-right: calc(5% + 4vw);
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h2, h4, .centeredTitle {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
