@@ -10,7 +10,7 @@
     justify-content: space-around;
 }
 
-.nav-bar-list > li, li > a{
+.nav-bar-list > li, li > a {
     list-style: none;
     text-decoration: none;
     color: #6699CC;
@@ -81,5 +81,31 @@ section:nth-child(2n) {
 
 p{
     line-height: 1.5;
+}
+
+.buttons{
+    background-color: #6699CC;
+    color: white;
+    border: solid 1px #6699CC;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    transition: 0.25s;
+}
+
+.buttons:hover{
+    background-color: white;
+    color: #6699CC;
+    border: solid 1px #6699CC;
+}
+
+.buttons:hover > a{
+    color: #6699CC;
+}
+
+.buttons > a {
+    font-size: calc(1em + .3vw);
+    text-decoration: none;
+    color: white;
 }
 
