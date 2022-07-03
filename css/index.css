@@ -7,13 +7,13 @@
 .nav-bar-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .nav-bar-list > li, li > a {
     list-style: none;
     text-decoration: none;
-    color: #6699CC;
+    color: #0059b3;
 }
 
 body {
@@ -54,27 +54,23 @@ a{
 .centered-subtitle {
     font-weight: bolder;
     padding-bottom: 10px;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     text-transform: none;
-}
-
-.container {
-    padding: 10em;
 }
 
 section {
 
 }
 
-section:nth-child(2n) {
+section:nth-child(2n-1) {
     color: white;
-    background: #6699CC;
+    background: #0059b3;
 }
 
 .container {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     padding-left: calc(5% + 4vw);
     padding-right: calc(5% + 4vw);
     height: 100%;
@@ -83,14 +79,18 @@ section:nth-child(2n) {
     overflow: hidden;
 }
 
+#header {
+    padding-block: 3%;
+}
+
 p {
     line-height: 1.5;
 }
 
 .buttons {
-    background-color: #6699CC;
+    background-color: #0059b3;
     color: white;
-    border: solid 1px #6699CC;
+    border: solid 1px #0059b3;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     padding: 1em;
@@ -99,13 +99,13 @@ p {
 
 .buttons:hover {
     background-color: white;
-    color: #6699CC;
-    border: solid 1px #6699CC;
+    color: #0059b3;
+    border: solid 1px #0059b3;
 }
 
 .buttons:hover > a {
 
-    color: #6699CC;
+    color: #0059b3;
 }
 
 .buttons > a {
@@ -137,4 +137,8 @@ p {
 .container-icons .devicon {
     color: #FFFFFF;
     font-size: 3.5rem;
+}
+
+.container-project {
+    margin-block: 1.5rem
 }
